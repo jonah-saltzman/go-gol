@@ -131,7 +131,7 @@ func (g *game) draw() {
 	}
 
 	render()
-	time.Sleep(time.Millisecond * 50)
+	time.Sleep(time.Millisecond * 400)
 }
 
 func (g *game) liveNeighbors(p position) int {
